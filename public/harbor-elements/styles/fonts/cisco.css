@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "CiscoSans";
+  font-style: normal;
+  font-weight: 100;
+  font-stretch: normal;
+
+  src: url("CiscoSansTT/CiscoSansTTThin.woff2") format("woff2"), url("CiscoSansTT/CiscoSansTTThin.woff") format("woff");
+}
+@font-face {
+  font-family: "CiscoSans";
+  font-style: normal;
+  font-weight: 200;
+  font-stretch: normal;
+
+  src: url("CiscoSansTT/CiscoSansTTExtraLight.woff2") format("woff2"), url("CiscoSansTT/CiscoSansTTExtraLight.woff") format("woff");
+}
+@font-face {
+  font-family: "CiscoSans";
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+
+  src: url("CiscoSansTT/CiscoSansTTLight.woff2") format("woff2"), url("CiscoSansTT/CiscoSansTTLight.woff") format("woff");
+}
+@font-face {
+  font-family: "CiscoSans";
+  font-weight: 400;
+
+  src: url("CiscoSansTT/CiscoSansTTRegular.woff2") format("woff2"), url("CiscoSansTT/CiscoSansTTRegular.woff") format("woff");
+}
+@font-face {
+  font-family: "CiscoSans";
+  font-style: italic;
+  font-weight: 400;
+
+  src: url("CiscoSansTT/CiscoSansTTRegularOblique.woff2") format("woff2"), url("CiscoSansTT/CiscoSansTTRegularOblique.woff") format("woff");
+}
+@font-face {
+  font-family: "CiscoSans";
+  font-style: normal;
+  font-weight: 500;
+
+  src: url("CiscoSansTT/CiscoSansTT-Medium.woff2") format("woff2"), url("CiscoSansTT/CiscoSansTT-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "CiscoSans";
+  font-style: italic;
+  font-weight: 500;
+
+  src: url("CiscoSansTT/CiscoSansTT-MediumOblique.woff2") format("woff2"), url("CiscoSansTT/CiscoSansTT-MediumOblique.woff") format("woff");
+}
+@font-face {
+  font-family: "CiscoSans";
+  font-style: normal;
+  font-weight: 700;
+
+  src: url("CiscoSansTT/CiscoSansTTBold.woff2") format("woff2"), url("CiscoSansTT/CiscoSansTTBold.woff") format("woff");
+}
+@font-face {
+  font-family: "CiscoSans";
+  font-style: italic;
+  font-weight: 700;
+
+  src: url("CiscoSansTT/CiscoSansTTBoldOblique.woff2") format("woff2"), url("CiscoSansTT/CiscoSansTTBoldOblique.woff") format("woff");
+}

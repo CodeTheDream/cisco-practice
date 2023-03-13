@@ -1,0 +1,1 @@
+import{_ as r}from"./p-429acd5f.js";var t=function(){try{var t=r(Object,"defineProperty");return t({},"",{}),t}catch(r){}}();export{t as _}

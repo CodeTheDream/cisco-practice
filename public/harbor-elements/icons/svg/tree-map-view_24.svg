@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Navigation / view-tree-map / tree-map-view_24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Navigation-/-view-tree-map-/-tree-map-view_24" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M22,20 C22,21.1045695 21.1045695,22 20,22 L4,22 C2.8954305,22 2,21.1045695 2,20 L2,4 C2,2.8954305 2.8954305,2 4,2 L20,2 C21.1045695,2 22,2.8954305 22,4 L22,20 Z M10,3 L4,3 C3.48716416,3 3.06449284,3.38604019 3.00672773,3.88337887 L3,4 L3,20 C3,20.5128358 3.38604019,20.9355072 3.88337887,20.9932723 L4,21 L10,21 L10,3 Z M15,10 L11,10 L11,21 L15,21 L15,10 Z M21,16 L16,16 L16,21 L20,21 C20.5128358,21 20.9355072,20.6139598 20.9932723,20.1166211 L21,20 L21,16 Z M21,10 L16,10 L16,15 L21,15 L21,10 Z M20,3 L11,3 L11,9 L21,9 L21,4 C21,3.48716416 20.6139598,3.06449284 20.1166211,3.00672773 L20,3 Z" id="tree-map-view_24" fill="#00090D"></path>
+    </g>
+</svg>

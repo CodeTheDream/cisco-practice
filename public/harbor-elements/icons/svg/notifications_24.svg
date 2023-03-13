@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Alert and Notification/notification/notifications_24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Alert-and-Notification/notification/notifications_24" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M22,19.5 C22,19.775 21.775,20 21.5,20 L2.5,20 C2.225,20 2,19.775 2,19.5 L2,16.669 C2,15.778 2.294,14.896 2.813,14.204 L5.885,10.475 C6.604,9.515 7,8.42 7,7.392 L7,6 C7,3.243 9.243,1 12,1 C14.757,1 17,3.243 17,6 L17,7.392 C17,8.42 17.396,9.515 18.13,10.493 L21.179,14.194 C21.708,14.904 22,15.782 22,16.669 L22,19.5 Z M12,23 C10.794,23 9.786,22.14 9.557,21 L14.443,21 C14.214,22.14 13.206,23 12,23 L12,23 Z M21.972,13.586 L18.916,9.875 C18.325,9.087 18,8.205 18,7.392 L18,6 C18,2.691 15.309,0 12,0 C8.691,0 6,2.691 6,6 L6,7.392 C6,8.205 5.675,9.087 5.099,9.857 L2.028,13.586 C1.365,14.469 1,15.563 1,16.669 L1,19.5 C1,20.327 1.673,21 2.5,21 L8.557,21 C8.799,22.691 10.243,24 12,24 C13.757,24 15.201,22.691 15.443,21 L21.5,21 C22.327,21 23,20.327 23,19.5 L23,16.669 C23,15.563 22.635,14.469 21.972,13.586 Z" id="notifications_24" fill="#00090D"></path>
+    </g>
+</svg>

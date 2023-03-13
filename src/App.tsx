@@ -3,7 +3,7 @@ import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 import { Todo } from './types/Todo';
 
-function App() {
+const App: React.FC = () => {
   const [todos, setTodos] = useState<Array<Todo>>([]);
   const [todoValue, setTodoValue] = useState(""); //typescript infers this is a string
 

@@ -1,0 +1,1 @@
+import{r as t}from"./p-9227bedb.js";const s=class{constructor(s){t(this,s),this.pack=Number("0.1.104".slice("0.1.104".lastIndexOf(".")+1))+1||0}componentWillLoad(){this.version=`v.${"0.1.104".replace(/\.[^.]*$/,"."+this.pack.toString())}`}};export{s as hbr_context}

@@ -1,0 +1,1 @@
+import{b as o}from"./p-1aae5bf9.js";const a=["en","ko","ja","zh"],r=o(),s=(o,s,t)=>{const e=t||r;return o[void 0!==e&&a.includes(e)?e:"en"][s]};export{s as i}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Action/lock/locked_24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Action/lock/locked_24" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M18.541,9 C19.897,9 21,10.103 21,11.459 L21,21.541 C21,22.897 19.897,24 18.541,24 L5.459,24 C4.103,24 3,22.897 3,21.541 L3,11.459 C3,10.103 4.103,9 5.459,9 L6,9 L6,6.01 C6,2.696 8.696,0 12.01,0 C15.325,0 18.021,2.696 18.021,6.01 L18.021,9 L18.541,9 Z M20,21.541 L20,11.459 C20,10.654 19.346,10 18.541,10 L5.459,10 C4.654,10 4,10.654 4,11.459 L4,21.541 C4,22.346 4.654,23 5.459,23 L18.541,23 C19.346,23 20,22.346 20,21.541 Z M7,6.01 L7,9 L17.021,9 L17.021,6.01 C17.021,3.248 14.773,1 12.01,1 C9.248,1 7,3.248 7,6.01 Z" id="locked_24" fill="#00090D"></path>
+    </g>
+</svg>

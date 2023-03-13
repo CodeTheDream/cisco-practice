@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Tools/clock/clock-filled_24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Tools/clock/clock-filled_24" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12,0 C18.617,0 24,5.383 24,12 C24,18.617 18.617,24 12,24 C5.383,24 0,18.617 0,12 C0,5.383 5.383,0 12,0 Z M12,5.541 C11.724,5.541 11.5,5.765 11.5,6.041 L11.5,6.041 L11.5,13.203 C11.5,13.517 11.623,13.812 11.816,14.003 L11.816,14.003 L14.618,17.322 C14.717,17.439 14.858,17.5 15,17.5 C15.114,17.5 15.229,17.461 15.322,17.382 C15.533,17.204 15.561,16.889 15.382,16.678 L15.382,16.678 L12.552,13.327 C12.519,13.294 12.5,13.249 12.5,13.203 L12.5,13.203 L12.5,6.041 C12.5,5.765 12.276,5.541 12,5.541 Z" id="clock_24" fill="#000000"></path>
+    </g>
+</svg>

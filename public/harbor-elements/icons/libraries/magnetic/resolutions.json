@@ -1,0 +1,398 @@
+{
+  "admin-color": [
+    null
+  ],
+  "admin": [
+    null
+  ],
+  "alerts-info-large": [
+    null
+  ],
+  "alerts-info-small": [
+    null
+  ],
+  "alerts-negative-large": [
+    null
+  ],
+  "alerts-negative-small": [
+    null
+  ],
+  "alerts-positive-large": [
+    null
+  ],
+  "alerts-positive-small": [
+    null
+  ],
+  "alerts-warning-large": [
+    null
+  ],
+  "alerts-warning-small": [
+    null
+  ],
+  "arrow-down": [
+    null
+  ],
+  "arrow-left": [
+    null
+  ],
+  "arrow-right": [
+    null
+  ],
+  "arrow-square-out": [
+    null
+  ],
+  "arrow-up": [
+    null
+  ],
+  "bell-filled": [
+    null
+  ],
+  "bell": [
+    null
+  ],
+  "calendar-blank": [
+    null
+  ],
+  "cameras-color": [
+    null
+  ],
+  "cameras": [
+    null
+  ],
+  "caret-double-left": [
+    null
+  ],
+  "caret-double-right": [
+    null
+  ],
+  "caret-down": [
+    null
+  ],
+  "caret-left": [
+    null
+  ],
+  "caret-right": [
+    null
+  ],
+  "caret-up": [
+    null
+  ],
+  "cellulargateway-color": [
+    null
+  ],
+  "cellulargateway": [
+    null
+  ],
+  "check": [
+    null
+  ],
+  "checkbox-indeterminate": [
+    null
+  ],
+  "checkbox-indeterminate-disabled": [
+    null
+  ],
+  "checkbox-selected-disabled": [
+    null
+  ],
+  "checkbox-selected": [
+    null
+  ],
+  "checkbox-unselected-disabled": [
+    null
+  ],
+  "checkbox-unselected": [
+    null
+  ],
+  "cisco": [
+    null
+  ],
+  "clock": [
+    null
+  ],
+  "copy": [
+    null
+  ],
+  "dots-nine": [
+    null
+  ],
+  "dots-six": [
+    null
+  ],
+  "dots-three-vertical": [
+    null
+  ],
+  "dots-three": [
+    null
+  ],
+  "download-simple": [
+    null
+  ],
+  "dropdown-caret-down": [
+    null
+  ],
+  "dropdown-caret-right": [
+    null
+  ],
+  "dropdown-caret-up": [
+    null
+  ],
+  "envelope-simple": [
+    null
+  ],
+  "environmental-color": [
+    null
+  ],
+  "environmental": [
+    null
+  ],
+  "eye-slash": [
+    null
+  ],
+  "eye": [
+    null
+  ],
+  "firmware-color": [
+    null
+  ],
+  "firmware": [
+    null
+  ],
+  "funnel-simple": [
+    null
+  ],
+  "gear-six-filled": [
+    null
+  ],
+  "gear-six-outlined": [
+    null
+  ],
+  "gear": [
+    null
+  ],
+  "info": [
+    null
+  ],
+  "insight-color": [
+    null
+  ],
+  "insight": [
+    null
+  ],
+  "inventory-color": [
+    null
+  ],
+  "inventory": [
+    null
+  ],
+  "licensing-color": [
+    null
+  ],
+  "licensing": [
+    null
+  ],
+  "lightning": [
+    null
+  ],
+  "list-bullets": [
+    null
+  ],
+  "list": [
+    null
+  ],
+  "loader": [
+    null
+  ],
+  "magic-wand": [
+    null
+  ],
+  "magnifying-glass": [
+    null
+  ],
+  "map-trifold": [
+    null
+  ],
+  "minus": [
+    null
+  ],
+  "navigation-color": [
+    null
+  ],
+  "navigation": [
+    null
+  ],
+  "network-color": [
+    null
+  ],
+  "network": [
+    null
+  ],
+  "networkwide-color": [
+    null
+  ],
+  "networkwide": [
+    null
+  ],
+  "organization-color": [
+    null
+  ],
+  "organization": [
+    null
+  ],
+  "overview-color": [
+    null
+  ],
+  "overview": [
+    null
+  ],
+  "paperclip": [
+    null
+  ],
+  "passthrough": [
+    null
+  ],
+  "pencil-simple": [
+    null
+  ],
+  "phosphor-checkbox-checked": [
+    null
+  ],
+  "phosphor-checkbox-square": [
+    null
+  ],
+  "phosphor-circle": [
+    null
+  ],
+  "phosphor-lock-simple": [
+    null
+  ],
+  "phosphor-radio-button-duotone": [
+    null
+  ],
+  "placeholder": [
+    null
+  ],
+  "plus": [
+    null
+  ],
+  "printer": [
+    null
+  ],
+  "prohibitInset": [
+    null
+  ],
+  "question-filled": [
+    null
+  ],
+  "question": [
+    null
+  ],
+  "radio-button-default": [
+    null
+  ],
+  "radio-button-indeterminate": [
+    null
+  ],
+  "radio-button-selected": [
+    null
+  ],
+  "refresh": [
+    null
+  ],
+  "security-color": [
+    null
+  ],
+  "security": [
+    null
+  ],
+  "sign-out": [
+    null
+  ],
+  "sort-down": [
+    null
+  ],
+  "sort-up": [
+    null
+  ],
+  "sort": [
+    null
+  ],
+  "stack-port": [
+    null
+  ],
+  "stack": [
+    null
+  ],
+  "switch-color": [
+    null
+  ],
+  "switch": [
+    null
+  ],
+  "systemsmanager-color": [
+    null
+  ],
+  "systemsmanager": [
+    null
+  ],
+  "trash-simple": [
+    null
+  ],
+  "trash": [
+    null
+  ],
+  "trend-down": [
+    null
+  ],
+  "trend-up": [
+    null
+  ],
+  "upload-simple": [
+    null
+  ],
+  "user-filled": [
+    null
+  ],
+  "user": [
+    null
+  ],
+  "warning-octagon-bold": [
+    null
+  ],
+  "warning-octagon-fill": [
+    null
+  ],
+  "wifi-high": [
+    null
+  ],
+  "wifi-lightning": [
+    null
+  ],
+  "wifi-low": [
+    null
+  ],
+  "wifi-medium": [
+    null
+  ],
+  "wifi-none": [
+    null
+  ],
+  "wifi-slash": [
+    null
+  ],
+  "wifi-x": [
+    null
+  ],
+  "wireless-color": [
+    null
+  ],
+  "wireless": [
+    null
+  ],
+  "x-circle": [
+    null
+  ],
+  "x": [
+    null
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Action/lock/unlocked-filled_24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Action/lock/unlocked-filled_24" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M6,9 L6,6 C6,2.68629 8.68629,0 12,0 C14.7643,0 17.092,1.86937 17.7879,4.41291 C17.8709,4.71635 17.6304,5 17.3158,5 C17.0739,5 16.8681,4.82859 16.8003,4.59632 C16.1936,2.51819 14.27411,1 12,1 C9.23858,1 7,3.23858 7,6 L7,9 L18.021,9 L18.541,9 C19.897,9 21,10.103 21,11.459 L21,21.541 C21,22.897 19.897,24 18.541,24 L5.459,24 C4.103,24 3,22.897 3,21.541 L3,11.459 C3,10.103 4.103,9 5.459,9 L6,9 Z" id="unlocked-filled_24" fill="#00090D"></path>
+    </g>
+</svg>

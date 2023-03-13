@@ -1,0 +1,578 @@
+/******
+  Theme color tokens - Cohesion V1
+  *******/
+
+:root {
+  /** form Elements **/
+  --hbr-form-control-height-md: 30px;
+  --hbr-form-control-color-border: #8d959c;
+  --hbr-form-control-color-asterisk: var(--hbr-color-danger);
+  --hbr-form-control-font-weight-label: var(--hbr-font-weight-normal);
+  --hbr-form-control-color-label: #545454;
+  --hbr-form-control-font-weight-label: var(--hbr-font-weight-light, 300);
+  --hbr-form-control-border-width-focus: 2px;
+  --hbr-color-accent-active: #0076d5;
+  --hbr-form-control-color-asterisk: #af2d17;
+}
+
+/********************
+** hbr-select
+********************/
+
+/* --hbr-form-control-height-small */
+hbr-select {
+  --menu-panel-border: 0;
+  --menu-panel-box-shadow: 0 2px 4px 0 rgb(212 212 212 / 50%), 0 0 4px 0 rgb(218 218 218 / 50%);
+  --menu-panel-border-radius: 0;
+  --color-trigger-bg-disabled: transparent;
+  --no-label-placeholder-color: var(--hbr-color-neutral);
+}
+hbr-select::part(control) {
+  border: none;
+  border-radius: 0;
+  padding-left: inherit;
+  border-bottom: var(--box-border);
+}
+hbr-select[disabled]::part(control) {
+  border-bottom-color: #d8dbde;
+}
+hbr-select::part(label) {
+  padding: 0 0 0 4px;
+  margin-bottom: 0;
+  color: var(--hbr-color-neutral);
+}
+hbr-select::part(placeholder) {
+  padding: 4px 0 4px 3px;
+  margin: 0 4px 0 0;
+}
+hbr-select[disabled]::part(placeholder) {
+  font-weight: 300;
+}
+hbr-select::part(icon) {
+  margin-right: 0;
+}
+hbr-select::part(tag-base) {
+  border-radius: var(--hbr-border-radius-pill);
+  background-color: #f7f7f7;
+}
+hbr-select[data-focused="true"]::part(control) {
+  border-bottom: 2px solid var(--hbr-form-control-color-border-focus);
+}
+hbr-select[data-focused="true"]::part(positioner) {
+  margin-top: 1px;
+}
+hbr-select hbr-menu::part(label) {
+  padding-top: 16px;
+}
+hbr-select hbr-menu-item:hover::part(base) {
+  background-color: #d8dbde;
+}
+hbr-select hbr-menu-item::part(label) {
+  line-height: 20px;
+}
+hbr-select hbr-menu-item:not([checked])::part(label) {
+  font-weight: 300;
+}
+hbr-select hbr-menu-item[checked]::part(label) {
+  font-weight: normal;
+}
+hbr-select hbr-menu-item[checked]::part(base) {
+  background-color: transparent;
+}
+hbr-select hbr-menu-item:hover:active::part(base) {
+  background-color: var(--hbr-color-accent-disabled, #93bee9);
+}
+hbr-select::part(error) {
+  border-bottom: 1px solid var(--hbr-color-danger);
+}
+
+/********************
+** Button
+********************/
+hbr-button[variant="outline"]::part(base) {
+  --background-color-hover: transparent;
+}
+hbr-button[size="small"] {
+  min-width: 100px;
+}
+hbr-button[size="medium"],
+hbr-button[size="large"] {
+  min-width: 120px;
+}
+hbr-button {
+  --height-small: 24px;
+  --height-medium: 36px;
+  --height-large: 48px;
+}
+hbr-button[circle] {
+  min-width: inherit;
+}
+
+/********************
+** Form - hbr-switch
+********************/
+hbr-switch {
+  --label-margin: 0 3px 0 20px;
+}
+hbr-switch::part(content) {
+  font-size: 12px;
+}
+hbr-switch[checked][disabled]::part(control) {
+  background-color: var(--hbr-color-accent-disabled, #93bee9);
+}
+hbr-switch[disabled]::part(content) {
+  color: var(--hbr-color-neutral-disabled, #8d959c);
+}
+
+hbr-switch[size="small"] {
+  --control-width: 57px;
+  --control-height: 16px;
+}
+hbr-switch[size="small"]::part(control) {
+  --control-unchecked-padding-left: 3px;
+  --control-checked-padding-left: 28px;
+}
+hbr-switch::part(control) {
+  border-radius: 6px;
+  width: 57px;
+  height: 16px;
+}
+hbr-switch::part(thumb) {
+  border-radius: 6px;
+  width: 26px;
+  height: 9px;
+}
+
+hbr-switch[size="medium"],
+hbr-switch[size="large"] {
+  --thumb-size: 24px;
+  --control-width: 57px;
+  --control-height: 30px;
+}
+hbr-switch[size="medium"]::part(control),
+hbr-switch[size="large"]::part(control) {
+  width: 57px;
+  height: 30px;
+  border-radius: 6px;
+  --control-unchecked-padding-left: 3px;
+  --control-checked-padding-left: 28px;
+}
+hbr-switch[size="medium"]::part(thumb),
+hbr-switch[size="large"]::part(thumb) {
+  border-radius: 6px;
+  width: 26px;
+  height: 24px;
+}
+
+/********************
+   ** Form - hbr-checkbox
+   ** Form - hbr-radio
+   ********************/
+hbr-radio:not([disabled]),
+hbr-checkbox:not([disabled]) {
+  --control-color: var(--hbr-color-neutral-medium-text);
+}
+hbr-radio::part(content),
+hbr-checkbox::part(content) {
+  margin: 0 3px 0 7px;
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--hbr-color-neutral-medium-text);
+}
+hbr-radio:not([disabled]):hover::part(content),
+hbr-checkbox:not([disabled]):hover::part(content) {
+  color: var(--hbr-color-neutral-text);
+}
+hbr-radio:not([disabled])::part(content-checked),
+hbr-checkbox:not([disabled])::part(content-checked) {
+  font-weight: normal;
+  color: var(--hbr-color-neutral-text);
+}
+
+/********************
+   ** Form - hbr-checkbox-group
+   ** Form - hbr-radio-group
+   ** Form - hbr-switch-group
+   ********************/
+hbr-radio-group {
+  --radio-margin-row: 6px 22px 0 0;
+  --radio-margin-column: 3px 0 3px 0;
+}
+hbr-check-group {
+  --check-margin-row: 6px 22px 0 0;
+  --check-margin-column: 3px 0 3px 0;
+}
+hbr-radio-group[direction="column"]::part(label),
+hbr-check-group[direction="column"]::part(label) {
+  margin-bottom: 6px;
+}
+hbr-switch-group {
+  --radio-margin-row: 6px 18px 0 0;
+  --radio-margin-column: 3px 0 3px 0;
+}
+
+/* Form: Hbr Input */
+hbr-input::part(base) {
+  border: none;
+  border-bottom: var(--box-border);
+  color: var(--color);
+  border-radius: 0;
+}
+
+hbr-input::part(input) {
+  margin: 0 3px;
+}
+
+hbr-input > div[slot="prefix"] {
+  margin-left: 3px;
+}
+
+hbr-input[data-focused="true"]::part(base) {
+  border-bottom: 1px solid var(--hbr-form-control-color-border-focus);
+  border-width: 2px;
+}
+
+hbr-input[disabled]::part(input) {
+  color: var(--hbr-color-neutral-disabled);
+}
+
+hbr-input[readonly]::part(base) {
+  border: none;
+}
+
+hbr-input[readonly]::part(input) {
+  color: var(--label-color);
+  font-weight: var(--hbr-font-weight-normal);
+}
+
+hbr-input[error]::part(base) {
+  border-bottom: 1px solid var(--hbr-color-danger);
+}
+
+hbr-input[data-focused="true"][error]::part(base) {
+  border-bottom: 1px solid var(--hbr-color-danger);
+  border-width: 2px;
+}
+
+hbr-input::part(error-icon) {
+  display: none;
+}
+
+hbr-input::part(label) {
+  margin: 0 3px;
+}
+
+hbr-input::part(clear-button) {
+  position: absolute;
+  right: -3px;
+  cursor: pointer;
+  bottom: 7px;
+  color: #00a0d1;
+}
+
+/* Form- Slider */
+
+hbr-slider {
+  --hbr-slider-background-color: white;
+  --hbr-slider-thumb-border: 1px solid #9e9ea2;
+  --hbr-slider-thumb-transition-scale: none;
+  --hbr-slider-thumb-active-color: var(--hbr-color-accent-500);
+}
+
+hbr-slider::part(tooltipstart) {
+  font-size: 12px;
+  font-weight: normal;
+  color: var(--color);
+  letter-spacing: 0.5px;
+}
+
+hbr-slider::part(tooltipend) {
+  font-size: 12px;
+  font-weight: normal;
+  color: var(--color);
+  letter-spacing: 0.5px;
+}
+
+/* Textarea */
+
+hbr-textarea::part(base) {
+  border: none;
+  color: var(--color);
+  border-radius: 0;
+}
+
+hbr-textarea::part(textarea) {
+  color: var(--color);
+  border-right: solid var(--border-width) var(--border-color);
+  border-left: solid var(--border-width) var(--border-color);
+  border-top: solid var(--border-width) var(--border-color);
+  border-bottom: var(--box-border);
+  max-height: 300px;
+  border-radius: 0;
+}
+
+hbr-textarea::part(textarea):focus {
+  border: 1px solid var(--hbr-color-accent-500);
+  border-bottom: 2px solid var(--hbr-color-accent-500);
+}
+
+hbr-textarea::part(label) {
+  margin: 5px 3px;
+}
+
+hbr-input::part(error) {
+  border-bottom: 1px solid var(--hbr-color-danger);
+}
+
+hbr-textarea::part(error) {
+  border-top: 1px solid var(--hbr-color-danger);
+  border-left: 1px solid var(--hbr-color-danger);
+  border-right: 1px solid var(--hbr-color-danger);
+  border-bottom: 2px solid var(--hbr-color-danger);
+}
+
+hbr-time-picker::part(input) {
+  --input-max-width: 88px;
+}
+
+hbr-tab hbr-dropdown::part(base) {
+  --trigger-color: var(--hbr-color-neutral-text);
+  --trigger-font-weight: var(--hbr-font-weight-bold);
+}
+
+/********************
+** Card
+********************/
+
+hbr-card::part(base) {
+  border-radius: 2px;
+  box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 15%);
+  color: #535b62;
+  transition: all 0.5s ease-in-out;
+  outline: 2px solid transparent;
+}
+hbr-card::part(base):hover {
+  box-shadow: 0 4px 5px -2px rgb(0 0 0 / 20%), 0 7px 10px 1px rgb(0 0 0 / 14%), 0 2px 16px 1px rgb(0 0 0 / 12%);
+}
+hbr-card::part(header) {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 24px;
+  max-height: 72px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: #121212;
+  text-transform: capitalize;
+}
+hbr-card::part(sub-header) {
+  margin-top: 6px;
+  text-transform: capitalize;
+  color: var(--hbr-color-neutral);
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+}
+hbr-card::part(body) {
+  font-size: 12px;
+  overflow: auto;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  padding-bottom: 6px;
+}
+
+/********************
+** Form
+********************/
+hbr-select::part(help-text),
+hbr-input::part(help-text),
+hbr-checkbox::part(help-text),
+hbr-checkbox-group::part(help-text),
+hbr-radio::part(help-text),
+hbr-radio-group::part(help-text),
+hbr-slider::part(help-text),
+hbr-switch::part(help-text),
+hbr-switch-group::part(help-text),
+hbr-textarea::part(help-text) {
+  line-height: 18px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  padding-top: 4px;
+  padding-right: 3px;
+  margin: 0;
+}
+
+/* hbr-dropdown */
+hbr-dropdown[variant="text"][menu]::part(base) {
+  --trigger-color: var(--primary-color, #0076d5);
+  --trigger-disabled-color: var(--disabled-color, #8d959c);
+  --trigger-open-color: var(--primary-hover, #0353a8);
+  --trigger-hover-color: var(--primary-hover, #0353a8);
+  --trigger-gap: 8px;
+}
+hbr-dropdown::part(panel) {
+  background: var(--tooltip-background, #ffffff);
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 6%);
+  border: 1px solid var(--tooltip-border, #dedede);
+  border-radius: 6px;
+}
+hbr-dropdown[variant="text"][menu][disabled]::part(base) {
+  opacity: 0.5;
+}
+hbr-dropdown[menu] hbr-menu::part(base) {
+  background: var(--tooltip-background, #ffffff);
+  box-shadow: none;
+  border: none;
+  border-radius: 6px;
+}
+/* hbr-dropdown */
+
+/* hbr-menu & hbr-menu-item */
+hbr-menu::part(base) {
+  padding: 15px 0;
+}
+hbr-menu::part(base) {
+  background: var(--tooltip-background, #ffffff);
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 6%);
+  border: 1px solid var(--tooltip-border, #dedede);
+  padding: 15px 0;
+  border-radius: 6px;
+}
+hbr-menu-item::part(base) {
+  padding: 9px 24px;
+  --hover-background: var(--background-tertiary, #e9ebec);
+  --hover-color: var(--text-primary, #121212);
+  --hover-checked-background-color: var(--hover-background);
+  --color: var(--text-secondary, #535b62);
+  --checked-color: var(--text-primary, #121212);
+  --checked-background-color: transparent;
+  --checkbox-checked-background-color: transparent;
+  --padding: 9px 24px;
+}
+hbr-menu-item[disabled]::part(base) {
+  color: var(--disabled-color, #8d959c);
+}
+/* hbr-menu & hbr-menu-item */
+
+/* Horizontal tab */
+hbr-tab-group::part(base) {
+  --sentiment-color: var(--primary-color, #0e69cb);
+  --border-color: var(--divider-color, #d8dbde);
+}
+hbr-tab-group hbr-tab::part(base) {
+  --hover-color: var(--text-primary, #121212);
+  --active-color: var(--text-primary, #121212);
+  --color: var(--text-secondary, #535b62);
+  font-weight: 300;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.67px;
+}
+hbr-tab-group hbr-tab:not([active])::part(indicator) {
+  display: none;
+}
+/* Horizontal tab */
+
+/* hbr-radio-group & hbr-radio */
+hbr-radio-group::part(base) {
+  --radio-margin-row: 6px 18px 0 0;
+  --radio-margin-column: 3px 0 3px 0;
+}
+hbr-radio-group[disabled]::part(base) {
+  cursor: not-allowed !important;
+  opacity: 0.9;
+  pointer-events: none;
+}
+hbr-radio::part(control-focus) {
+  border-color: none;
+  box-shadow: none;
+}
+hbr-radio::part(content) {
+  font-weight: 300;
+}
+hbr-radio[checked]::part(content) {
+  font-weight: normal;
+}
+hbr-radio:not([disabled])::part(default-icon) {
+  color: var(--text-secondary, #535b62);
+}
+hbr-radio:not([disabled]):hover::part(default-icon) {
+  color: var(--primary-color, #0e69cb);
+}
+/* hbr-radio-group & hbr-radio */
+
+/* hbr-checkbox-group & hbr-checkbox */
+hbr-checkbox-group::part(base) {
+  --checkbox-margin-row: 6px 18px 0 0;
+  --checkbox-margin-column: 3px 0 3px 0;
+}
+hbr-checkbox-group[disabled]::part(base) {
+  cursor: not-allowed !important;
+  opacity: 0.9;
+  pointer-events: none;
+}
+hbr-checkbox::part(control-focus) {
+  border-color: none;
+  box-shadow: none;
+}
+hbr-checkbox::part(content) {
+  font-weight: 300;
+}
+hbr-checkbox[checked]::part(content) {
+  font-weight: normal;
+}
+hbr-checkbox:not([disabled])::part(default-icon) {
+  color: var(--text-secondary, #535b62);
+}
+hbr-checkbox:not([disabled]):hover::part(default-icon) {
+  color: var(--primary-color, #0e69cb);
+}
+/* hbr-checkbox-group & hbr-checkbox */
+
+/* hbr-switch */
+hbr-switch[disabled]::part(base) {
+  --label-disabled-color: var(--disabled-color, #8d959c);
+  --control-disabled-color: var(--divider-color, #d8dbde);
+  --control-checked-disabled-color: #bfe3ff;
+  --thumb-disabled-color: var(--background-secondary, #f5f6f7);
+}
+hbr-switch:not([disabled])::part(base) {
+  --control-hover-color: var(--disabled-color, #8d959c);
+  --control-checked-hover-color: var(--primary-color, #0e69cb);
+}
+/* hbr-switch */
+
+/* Modal */
+
+hbr-modal::part(overlay) {
+  background-color: var(--modal-overlay, rgba(0, 0, 0, 0.5));
+}
+
+hbr-modal::part(panel) {
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0px 3px 1px -2px rgba(0, 9, 13, 0.2), 0px 2px 2px 0px rgba(0, 9, 13, 0.15), 0px 1px 5px 0px rgba(0, 9, 13, 0.2);
+}
+
+hbr-modal::part(footer) {
+    padding-top: 20px;
+    padding-bottom: 48px;
+}
+
+hbr-modal::part(title) {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    color: var(--primary-text, #535B62);
+    text-align: left;
+}
+
+hbr-modal::part(body) {
+    padding: 0 48px;
+}
