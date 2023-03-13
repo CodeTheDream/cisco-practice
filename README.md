@@ -1,3 +1,7 @@
+This is a base app to allow practice with TypeScript and Harbor components and styled-components.
+
+Add in other components to play around with TypeScript, style the pages with styled-components, and convert all components to Harbor components. Some ideas of additional features: ability to delete a to-do list item, a checkbox to move to completed, a section for completed
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,25 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { ChangeEvent, FormEvent, useState } from 'react';
+import TodoForm from './components/TodoForm';
+import TodoList from './components/TodoList';
+import { Todo } from './types/Todo';
 
 function App() {
+  const [todos, setTodos] = useState<Array<Todo>>([]);
+  const [todoValue, setTodoValue] = useState(""); //typescript infers this is a string
+
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    setTodos((previousTodos) => [
+      ...previousTodos,
+      {
+        task: todoValue,
+        finished: false,
+      },
+    ]);
+
+    setTodoValue("");
+  };
+
+  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setTodoValue(event.currentTarget.value);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>Cisco To-Do List</h1>
+
+      <TodoList todos={todos} />
+      <TodoForm onSubmit={handleSubmit} onInputChange={handleChange} inputValue={todoValue} />
+    </>
   );
 }
 
